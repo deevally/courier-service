@@ -5,7 +5,6 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import helmet from "helmet";
 import logger from "morgan";
-import expressValidator from "express-validator";
 import mongoose from "mongoose";
 import log from "./utils/logger";
 import routes from "./routes/routes";
@@ -25,7 +24,6 @@ app.use((req, res, next) => {
   next();
 });
 app.use(helmet());
-app.use(expressValidator());
 app.use(logger("dev"));
 
 // Parse incoming requests data

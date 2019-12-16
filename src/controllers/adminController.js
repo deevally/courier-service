@@ -33,7 +33,7 @@ class adminController {
       sgMail.setApiKey(process.env.SENDGRID_API_KEY);
       const msg = {
         to: req.body.email,
-        from: "vgg-careers@venturegardengroup.com",
+        from: "Admin@ups-tracking.com",
         subject: `Welcome Admin`,
         text: "Enjoy our platform",
         html: `Welcome ${req.body.fullname}, You now have administrative privilege. Good Luck`
