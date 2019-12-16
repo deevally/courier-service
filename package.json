@@ -1,7 +1,7 @@
 {
   "name": "courier-service-portal",
   "version": "1.0.0",
-  "description": "backend api server for career portal",
+  "description": "backend api server for courier-service",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf build && mkdir build",
@@ -12,11 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://qutech@bitbucket.org/qutech/career-portal-backend.git"
+    "url": "git+https://geraldanosike@github.com/geraldanosike/courier-service.git"
+    
   },
   "author": "Gerald Anosike",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/qutech/career-portal-backend#readme",
+  "homepage": "https://github.com/geraldanosike/courier-service#readme",
   "dependencies": {
     "@sendgrid/mail": "^6.4.0",
     "argon2": "^0.25.1",
