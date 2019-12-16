@@ -5,7 +5,6 @@ import mongooseValidate from "mongoose-unique-validator";
 const { Schema } = mongoose;
 const shippingSchema = new Schema(
   {
-    
     TrackingNumber: {
       type: String,
       maxlength: 10,
@@ -48,17 +47,54 @@ const shippingSchema = new Schema(
       minlength: 4,
       trim: true
     },
-    weight: {
-      type: Number,
+    itemWeight: {
+      type: String,
+      minlength: 1,
+      trim: true
+    },
+    itemHeight: {
+      type: String,
+      minlength: 1,
+      trim: true
+    },
+    itemColor: {
+      type: String,
+      minlength: 1,
+      trim: true
+    },
+    itemContent: {
+      type: String,
       minlength: 1,
       trim: true
     },
     dateShipped: {
-      type: String,
-      default: new Date().toLocaleDateString()
+      type: String
     },
     dateArrival: {
       type: String
+    },
+    timeShipped: {
+      type: String
+    },
+    deliveryType: {
+      type: String,
+      minlength: 2,
+      trim: true
+    },
+    RecieverName: {
+      type: String,
+      minlength: 2,
+      trim: true
+    },
+    RecieverAddress: {
+      type: String,
+      minlength: 2,
+      trim: true
+    },
+    location: {
+      type: String,
+      minlength: 2,
+      trim: true
     }
   },
   {

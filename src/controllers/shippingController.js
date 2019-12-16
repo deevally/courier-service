@@ -20,8 +20,17 @@ class ShippingController {
         locationFrom,
         locationTo,
         packageDetails,
-        weight,
-        dateArrival
+        dateArrival,
+        itemWeight,
+        itemHeight,
+        itemColor,
+        itemContent,
+        dateShipped,
+        timeShipped,
+        deliveryType,
+        RecieverName,
+        RecieverAddress,
+        location
       } = req.body;
 
       const options = {
@@ -30,8 +39,17 @@ class ShippingController {
         locationFrom,
         locationTo,
         packageDetails,
-        weight,
-        dateArrival
+        dateArrival,
+        itemWeight,
+        itemHeight,
+        itemColor,
+        itemContent,
+        dateShipped,
+        timeShipped,
+        deliveryType,
+        RecieverName,
+        RecieverAddress,
+        location
       };
  const findPackage = await Shipping.findOne({ TrackingNumber });
 
@@ -136,8 +154,17 @@ class ShippingController {
         locationFrom,
         locationTo,
         packageDetails,
-        weight,
-        dateArrival
+        dateArrival,
+        itemWeight,
+        itemHeight,
+        itemColor,
+        itemContent,
+        dateShipped,
+        timeShipped,
+        deliveryType,
+        RecieverName,
+        RecieverAddress,
+        location
       } = req.body;
 
       const options = {
@@ -146,8 +173,17 @@ class ShippingController {
         locationFrom,
         locationTo,
         packageDetails,
-        weight,
-        dateArrival
+        dateArrival,
+        itemWeight,
+        itemHeight,
+        itemColor,
+        itemContent,
+        dateShipped,
+        timeShipped,
+        deliveryType,
+        RecieverName,
+        RecieverAddress,
+        location
       };
       const updateJob = await BaseRepository.update(
         Shipping,
