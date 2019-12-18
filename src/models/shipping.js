@@ -33,38 +33,38 @@ const shippingSchema = new Schema(
     },
     locationFrom: {
       type: String,
-      minlength: 2,
+      // minlength: 2,
       trim: true
     },
     locationTo: {
       type: String,
-      minlength: 2,
+      // minlength: 2,
       trim: true
     },
 
     packageDetails: {
       type: String,
-      minlength: 4,
+      // minlength: 4,
       trim: true
     },
     itemWeight: {
       type: String,
-      minlength: 1,
+      // minlength: 1,
       trim: true
     },
     itemHeight: {
       type: String,
-      minlength: 1,
+      // minlength: 1,
       trim: true
     },
     itemColor: {
       type: String,
-      minlength: 1,
+      // minlength: 1,
       trim: true
     },
     itemContent: {
       type: String,
-      minlength: 1,
+      // minlength: 1,
       trim: true
     },
     dateShipped: {
@@ -78,22 +78,22 @@ const shippingSchema = new Schema(
     },
     deliveryType: {
       type: String,
-      minlength: 2,
+      // minlength: 2,
       trim: true
     },
     RecieverName: {
       type: String,
-      minlength: 2,
+      // minlength: 2,
       trim: true
     },
     RecieverAddress: {
       type: String,
-      minlength: 2,
+      // minlength: 2,
       trim: true
     },
     location: {
       type: String,
-      minlength: 2,
+      // minlength: 2,
       trim: true
     }
   },

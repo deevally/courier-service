@@ -96,3 +96,18 @@
 {"message":"App is listening on localhost: 3000","level":"info","label":"courier","timestamp":"2019-12-16T11:32:08.526Z"}
 {"message":"Connected to database successfully","level":"info","label":"courier","timestamp":"2019-12-16T11:32:14.174Z"}
 {"message":"Shutting down server","level":"info","label":"courier","timestamp":"2019-12-16T11:46:54.626Z"}
+{"message":"App is listening on localhost: 3000","level":"info","label":"courier","timestamp":"2019-12-18T10:30:47.678Z"}
+{"message":"Connected to database successfully","level":"info","label":"courier","timestamp":"2019-12-18T10:30:48.984Z"}
+{"message":"Shutting down server","level":"info","label":"courier","timestamp":"2019-12-18T10:31:02.650Z"}
+{"message":"App is listening on localhost: 3000","level":"info","label":"courier","timestamp":"2019-12-18T10:31:10.327Z"}
+{"message":"Connected to database successfully","level":"info","label":"courier","timestamp":"2019-12-18T10:31:11.666Z"}
+{"message":"Shutting down server","level":"info","label":"courier","timestamp":"2019-12-18T10:33:19.397Z"}
+{"message":"App is listening on localhost: 3000","level":"info","label":"courier","timestamp":"2019-12-18T10:36:38.274Z"}
+{"message":"Connected to database successfully","level":"info","label":"courier","timestamp":"2019-12-18T10:36:40.376Z"}
+{"message":"Shutting down server","level":"info","label":"courier","timestamp":"2019-12-18T10:45:14.720Z"}
+{"message":"App is listening on localhost: 3000","level":"info","label":"courier","timestamp":"2019-12-18T11:59:55.954Z"}
+{"message":"Connected to database successfully","level":"info","label":"courier","timestamp":"2019-12-18T11:59:57.584Z"}
+{"message":"Shutting down server","level":"info","label":"courier","timestamp":"2019-12-18T12:00:03.614Z"}
+{"message":"App is listening on localhost: 3000","level":"info","label":"courier","timestamp":"2019-12-18T12:00:09.875Z"}
+{"message":"Connected to database successfully","level":"info","label":"courier","timestamp":"2019-12-18T12:00:11.002Z"}
+{"message":"Shutting down server","level":"info","label":"courier","timestamp":"2019-12-18T12:00:45.750Z"}
