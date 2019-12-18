@@ -12,24 +12,24 @@ const shippingSchema = new Schema(
     },
     ShippingStatus: {
       type: String,
-      enum: [
-        "Parcel not dispatched yet",
-        "Pick up",
-        "In Transit",
-        "Hub scan",
-        "Consolidation",
-        "System Return",
-        "In customs clearance",
-        "Inbound",
-        "Out for delivery",
-        "Delivered",
-        "Not Present",
-        "Wrong Address",
-        "Parcel shipped by other means",
-        "Delay due to unknown reason",
-        "Access code required",
-        "Return to sender"
-      ]
+      // enum: [
+      //   "Parcel not dispatched yet",
+      //   "Pick up",
+      //   "In Transit",
+      //   "Hub scan",
+      //   "Consolidation",
+      //   "System Return",
+      //   "In customs clearance",
+      //   "Inbound",
+      //   "Out for delivery",
+      //   "Delivered",
+      //   "Not Present",
+      //   "Wrong Address",
+      //   "Parcel shipped by other means",
+      //   "Delay due to unknown reason",
+      //   "Access code required",
+      //   "Return to sender"
+      // ]
     },
     locationFrom: {
       type: String,
