@@ -54,7 +54,7 @@ class ShippingController {
  const findPackage = await Shipping.findOne({ TrackingNumber });
 
 
- if (findPackage) return res.status(400).send("Package already exists");
+ if (findPackage) return res.status(400).send("Tracking number already exists. Choose another one");
 
   const createShipping = await BaseRepository.create(Shipping, options);
       return res.status(201).send(createShipping);
